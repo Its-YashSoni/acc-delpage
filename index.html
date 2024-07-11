@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="ccb03b76-c842-410f-9514-1d570e8ae3d5">
+            <input type="hidden" name="subject" value="Aayu User Account Deletion Request">
+            <h1>Request Account Deletion</h1>
+            <input type="text" id="Name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Registered Email" required>
+            <h4>Reason for Account Deletion (Optional)</h4>
+            <textarea type="textarea" name="reason"></textarea>
+            <input type="submit" value="Send" id="button">
+            <h4 id="note">Please Ensure that the imformation provided by you is correct, we will review your request within 3-4 working days.</h4>
+        </form>
+    </div>
+</body>
+</html>
